@@ -13,7 +13,7 @@ let availableQuestions = []
 
 let questions = [
     {
-        question: "HOW MANY YEARS MAKES A  CENTURIES",
+        question: "HOW MANY YEARS MAKES A  CENTURY",
         choice1: '8',
         choice2: '1900',
         choice3: '100',
@@ -21,7 +21,7 @@ let questions = [
         answer: 3, 
     },
     {
-        question: "WHICH OF THE FOLLOWING DEPARTMENT IS A KILLER DEPT",
+        question: "WHICH OF THE FOLLOWING DEPARTMENT IS A KILLER DEPARTMENT",
         choice1: 'STAT',
         choice2: 'CS',
         choice3: 'IT',
@@ -29,16 +29,6 @@ let questions = [
         answer: 4, 
     },
     {
-
-        question: "What is 2 + 2",
-        choice1: 'kelvin',
-        choice2: 'kev',
-        choice3: 'mike',
-        choice4: 'kevin',
-        answer: 4, 
-    },
-    {
-
         question: "HOW MANY DAYS MAKE A WEEK",
         choice1: '90',
         choice2: '365',

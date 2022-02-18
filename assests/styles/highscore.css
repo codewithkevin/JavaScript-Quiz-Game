@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+body {
+    color: black;
+
+}
+
+#highScoreList {
+    list-style: none;
+    margin-bottom: 4rem;
+}
+
+.high-score {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.container .btn {
+    justify-content: center;
+    color: white;
+    display: flex; 
+}
+
+.dark-mode {
+    background-color: rgb(28, 26, 26);
+}
+
+.dark-mode h1 {
+    color: white;
+}

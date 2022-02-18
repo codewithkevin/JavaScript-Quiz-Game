@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Roboto+Mono:wght@100&display=swap');
 :root {
-    background-color: rgb(29, 26, 26);
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
 
 *{
@@ -13,7 +14,7 @@
 
 h1{
     font-size: 5.4rem;
-    color: white;
+    color: black;
     margin-bottom: 5rem;
 }
 
@@ -55,6 +56,12 @@ h2 {
     display: none;
 }
 
+#home .btn {
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+}
+
 .btn {
     font-size: 2.4rem;
     padding: 2rem 0;
@@ -63,7 +70,8 @@ h2 {
     margin-bottom: 1rem;
     text-decoration: none;
     color: rgb(28, 26, 26);
-    background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
+    /* background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%); */
+    background-color: cadetblue;
     border-radius: 4px;
 }
 
@@ -81,7 +89,8 @@ h2 {
 }
 
 #highscore-btn {
-    background: linear-gradient(90deg, rgb(225, 247, 9) 0%, rgb(240, 231, 6) 100%);
+    background: red;
+    /* background: linear-gradient(90deg, rgb(225, 247, 9) 0%, rgb(240, 231, 6) 100%); */
 }
 
 #highscore-btn:hover {
@@ -118,11 +127,11 @@ input {
     padding: 1.5rem;
     font-size: 1.8rem;
     border: none;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 0, 0.5);
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 0, 0, 0.5);
 }
 
 input::placeholder {
-    color: #aaa;
+    color: black;
 }
 
 #username {
@@ -146,3 +155,12 @@ input::placeholder {
     font-size: 2rem;
     color: black;
 }
+
+.dark-mode {
+    background-color: rgb(28, 26, 26);
+}
+
+.dark-mode h1 {
+    color: white;
+}
+

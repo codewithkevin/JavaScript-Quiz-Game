@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 :root{
     color: black;
     background-color: white;
@@ -8,7 +9,8 @@
     margin-bottom: 0.8rem;
     width: 100%;
     border-radius: 4px;
-    background: rgb(18, 93, 255);
+    /* background: rgb(18, 93, 255); */
+    background: brown;
     font-size: 3rem;
     min-width: 80rem;
 }
